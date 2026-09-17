@@ -1,29 +1,29 @@
-nst caixaResultado = document.querySelector(".caixa-resultado");
-xaPrincipal = document.querySelector(".caixa-principal");
+const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
+const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "O cyberbullying é a violência virtual que ocorre geralmente com as pessoas tímidas e indefesas, ou simplesmente por não caírem na simpatia das mesmas. Como podemos evitá-lo",
+        enunciado: "Quais são os princípios fundamentais da Saúde Pública no Brasil que garantem o direito à saúde e a organização do Sistema Único de Saúde (SUS)?",
         alternativas: [
             {
-                texto: "Utilizando palestras para prevenir o cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa reflexiva e busca aprendizado e conhecimento."
+                texto: "A Saúde Pública atua com base no princípio da Universalidade, garantindo que a saúde seja um direito fundamental de todos os cidadãos e um dever do Estado, sem qualquer tipo de discriminação.",
+                afirmacao: "É verdadeira pois está expressa no Artigo 196 da Constituição Federal de 1988, que estabelece a saúde como direito universal."
             },
             {
-                texto:  "Prestando atenção aos sinais de cyberbullying nas escolas.",
-                afirmacao: "Você é uma pessoa observadora, pois se preocupa com o bem estar dos seus alunos."
+                texto:  "A Integralidade é uma das diretrizes essenciais da Saúde Pública, significando que o sistema deve oferecer atendimento completo, que vai desde as ações de prevenção e promoção da saúde até o tratamento de doenças e reabilitação.",
+                afirmacao: "É verdadeira pois a Lei Orgânica da Saúde (Lei nº 8.080/1990) define a integralidade como a articulação contínua das ações e serviços preventivos e curativos em todos os níveis de complexidade do sistema."
             }    
            
         ]
     },
     {
        
-            enunciado: "As fontes renováveis de energia são aquelas formas de produção de energia em que suas fontes são capazes de manter-se disponíveis durante um longo prazo, contando com recursos que se regeneram ou que se mantêm ativos permanentemente. Com base nisso, temos a energia geotérmica, que consiste em utilizar o calor manifestado em áreas próximas à superfície. Qual a sua opinião sobre esse modelo de energia renovável?",
+            enunciado: "Como a descentralização do sistema e o controle social influenciam a gestão da Saúde Pública no Brasil?",
             alternativas: [
                 {
-                    texto: "A energia geotérmica precisa ser mais explorada visto que utiliza o calor interno da terra, pois não depende do clima e é inesgotável.",
+                    texto: "A descentralização transfere a responsabilidade e a gestão dos serviços de saúde do nível federal para os níveis estadual e municipal, aproximando as decisões das reais necessidades de cada localidade.",
                     afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
                 },
                 {
@@ -84,7 +84,3 @@ function mostraResultado(){
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
-
-
-
-mostraPergunta();
