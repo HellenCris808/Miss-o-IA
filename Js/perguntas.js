@@ -9,7 +9,8 @@ export const perguntas = [
             },
             {
                 texto:  "A Integralidade é uma das diretrizes essenciais da Saúde Pública, significando que o sistema deve oferecer atendimento completo, que vai desde as ações de prevenção e promoção da saúde até o tratamento de doenças e reabilitação.",
-                afirmacao: "Profissional da área da saúde ou estudante de epidemiologia."
+                afirmacao: ["Profissional da área da saúde ou estudante de epidemiologia.",
+                    ""]
             }    
            
         ]
@@ -20,11 +21,13 @@ export const perguntas = [
             alternativas: [
                 {
                     texto: "As visitas domiciliares periódicas para eliminação de focos do vetor e a aplicação de larvicidas são indispensáveis para interromper o ciclo de reprodução do mosquito Aedes aegypti.",
-                    afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
+                    afirmacao: ["Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores.",
+                        ""]
                 },
                 {
                     texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Agente de Combate a Endemias ou profissional de vigilância ambiental"
+                    afirmacao: ["Agente de Combate a Endemias ou profissional de vigilância ambiental",
+                        ""]
                 }    
                
             ]
@@ -35,12 +38,14 @@ export const perguntas = [
             alternativas: [
                 {
                     texto: "A APS estabelece vínculo continuado entre a equipe de saúde e o usuário, permitindo o acompanhamento do histórico do paciente e facilitando o diagnóstico precoce.",
-                    afirmacao: "A APS estabelece vínculo continuado entre a equipe de saúde e o usuário, permitindo o acompanhamento do histórico do paciente e facilitando o diagnóstico precoce."
+                    afirmacao: ["A APS estabelece vínculo continuado entre a equipe de saúde e o usuário, permitindo o acompanhamento do histórico do paciente e facilitando o diagnóstico precoce.",
+                        ""]
                 },
                 {
                     texto:    "A ordenação do fluxo de atendimento pela APS otimiza os recursos financeiros do sistema e evita a sobrecarga desnecessária de prontos-socorros e hospitais.",
                
-                    afirmacao: "Sanitarista ou planejador de redes de atenção à saúde"
+                    afirmacao: ["Sanitarista ou planejador de redes de atenção à saúde",
+                        ""]
                 }    
             ]
         }
