@@ -5,46 +5,46 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Quais são os princípios fundamentais da Saúde Pública no Brasil que garantem o direito à saúde e a organização do Sistema Único de Saúde (SUS)?",
+        enunciado: "A vacinação em massa e a ampliação do acesso à atenção primária são estratégias fundamentais para a saúde pública?",
         alternativas: [
             {
-                texto: "A Saúde Pública atua com base no princípio da Universalidade, garantindo que a saúde seja um direito fundamental de todos os cidadãos e um dever do Estado, sem qualquer tipo de discriminação.",
+                texto: "A vacinação reduz a circulação de patógenos na comunidade e protege indivíduos vulneráveis por meio da imunidade coletiva, enquanto a atenção primária previne o agravamento de doenças crônicas",
                 afirmacao: "É verdadeira pois está expressa no Artigo 196 da Constituição Federal de 1988, que estabelece a saúde como direito universal."
             },
             {
                 texto:  "A Integralidade é uma das diretrizes essenciais da Saúde Pública, significando que o sistema deve oferecer atendimento completo, que vai desde as ações de prevenção e promoção da saúde até o tratamento de doenças e reabilitação.",
-                afirmacao: "É verdadeira pois a Lei Orgânica da Saúde (Lei nº 8.080/1990) define a integralidade como a articulação contínua das ações e serviços preventivos e curativos em todos os níveis de complexidade do sistema."
+                afirmacao: "Profissional da área da saúde ou estudante de epidemiologia."
             }    
            
         ]
     },
     {
        
-            enunciado: "Como a descentralização do sistema e o controle social influenciam a gestão da Saúde Pública no Brasil?",
+            enunciado: "controle e combate a arboviroses, como a Dengue e a Chikungunya, exige ações contínuas do poder público e da sociedade civil?",
             alternativas: [
                 {
-                    texto: "A descentralização transfere a responsabilidade e a gestão dos serviços de saúde do nível federal para os níveis estadual e municipal, aproximando as decisões das reais necessidades de cada localidade.",
+                    texto: "As visitas domiciliares periódicas para eliminação de focos do vetor e a aplicação de larvicidas são indispensáveis para interromper o ciclo de reprodução do mosquito Aedes aegypti.",
                     afirmacao: "Você demonstra um perfil  de pesquisador e inovador que busca por meio da inovação soluções para o meio ambiente e sustentabilidade das gerações posteriores."
                 },
                 {
                     texto:  "Seria interessante explorar primeiramente fontes renováveis exotérmicas, em segundo plano utilizar a energia geotérmica apesar dos custos elevados de explorações e possibilidades de contaminação de rios. ",
-                    afirmacao: "Você é uma pessoa que dá ênfase em priorizar os recursos disponíveis, pensando no meio ambiente e sem descartar o viés econômico."
+                    afirmacao: "Agente de Combate a Endemias ou profissional de vigilância ambiental"
                 }    
                
             ]
         },
         {
-            enunciado: "Hoje em dia é cada vez mais importante conhecer o seu corpo, suas qualidades, suas limitações e entender suas emoções. Saber controlá-las é o desafio das pessoas. A sua auto-estima impacta a sua qualidade de vida?",
+            enunciado: "O fortalecimento do Sistema Único de Saúde (SUS) passa pela consolidação da Atenção Primária à Saúde (APS) como porta de entrada preferencial da rede. Por que essa estratégia é considerada eficiente?",
 
             alternativas: [
                 {
-                    texto: "Na maior parte do tempo, com certeza impacta, pois é a partir da autoestima que temos um olhar positivo ou negativo sobre nossas ações diárias. Sempre estou em busca de mais autoconhecimento.",
-                    afirmacao: "Você tem consciência que é importante ter uma boa auto-estima e procura se aprofundar mais sobre o assunto, vendo a vida de um jeito positivo."
+                    texto: "A APS estabelece vínculo continuado entre a equipe de saúde e o usuário, permitindo o acompanhamento do histórico do paciente e facilitando o diagnóstico precoce.",
+                    afirmacao: "A APS estabelece vínculo continuado entre a equipe de saúde e o usuário, permitindo o acompanhamento do histórico do paciente e facilitando o diagnóstico precoce."
                 },
                 {
-                    texto:    "Apenas ocasionalmente ou raramente. Às vezes minha autoestima oscila e isso pode afetar negativamente minha qualidade de vida em certas ocasiões.",
+                    texto:    "A ordenação do fluxo de atendimento pela APS otimiza os recursos financeiros do sistema e evita a sobrecarga desnecessária de prontos-socorros e hospitais.",
                
-                    afirmacao: "Você demomostra que precisa se conhecer mais e mostra uma consciência de uma crescente necessidade de cuidar mais da própria percepção e bem-estar emocional."
+                    afirmacao: "Sanitarista ou planejador de redes de atenção à saúde"
                 }    
                
             ]
