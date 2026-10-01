@@ -5,6 +5,7 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+const botaoJogarNovamente = document.querySelector(“.novamente-btn”);
 const perguntas = [
     {
         enunciado: "A vacinação em massa e a ampliação do acesso à atenção primária são estratégias fundamentais para a saúde pública?",
