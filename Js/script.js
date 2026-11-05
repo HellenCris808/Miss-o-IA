@@ -53,7 +53,6 @@ function jogaNovamente() {
     mostraPergunta();
 }
 
-// Evento do botão sem executar a função diretamente ()
 botaoJogarNovamente.addEventListener("click", jogaNovamente);
 
 mostraPergunta();
