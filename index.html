@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Saude publica</title>
-  </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Saúde Pública</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
-  <div class="caixa-principal">
-    <h1>Saude Publica</h1>
-    <div class="caixa-perguntas"></div>
-    <div class="caixa-alternativas"></div>
-    <div class="caixa-resultado">
-      <p class="texto-resultado"></p>
-      <!-- Classe corrigida para corresponder ao JS -->
-      <button class="novamente-btn">Jogar novamente</button>
+
+    <!-- Tela Inicial com Botão Jogar -->
+    <div class="tela-inicial">
+        <h1>Saúde Pública</h1>
+        <p>Tome as decisões corretas para proteger a sua comunidade!</p>
+        <button class="btn-jogar">Jogar</button>
     </div>
-  </div>
-  <!-- Apenas o script principal precisa ser importado aqui quando se usa ES6 Modules -->
-  <script type="module" src="script.js"></script>
+
+    <!-- Interface Principal do Jogo (Começa oculta no CSS) -->
+    <div class="caixa-principal" style="display: none;">
+        <div class="caixa-perguntas"></div>
+        <div class="caixa-alternativas"></div>
+        <div class="caixa-resultado">
+            <p class="texto-resultado"></p>
+            <button class="btn-jogar-novamente">Jogar Novamente</button>
+        </div>
+    </div>
+
+    <!-- CONEXÃO DO SCRIPT AQUI -->
+    <script src="script.js"></script>
 </body>
 </html>
