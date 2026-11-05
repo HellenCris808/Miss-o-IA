@@ -9,7 +9,7 @@
   --cor-sombra: rgba(25, 168, 138, 0.12);
 }
 
-/* Corrigido de '-' para '*' */
+/* Reset Universal (corrigido de '-' para '*') */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,18 +17,21 @@
 }
 
 body {
-  background: linear-gradient(135deg, #F2FAF8, #E8F7F3);
+  background: linear-gradient(135deg, var(--cor-fundo), #E8F7F3);
   color: var(--cor-texto);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 
+/* Container compartilhado para a Tela Inicial e o Jogo */
+.tela-inicial,
 .caixa-principal {
   background-color: var(--cor-principal);
-  width: 90%;
+  width: 100%;
   max-width: 700px;
   text-align: center;
   padding: 40px;
@@ -37,25 +40,39 @@ body {
   border: 1px solid #DCEFEA;
 }
 
+/* Títulos */
 h1 {
   color: var(--cor-destaque-escura);
   font-size: 2.2rem;
   margin-bottom: 15px;
 }
 
+/* Parágrafos gerais */
 p {
   color: var(--cor-texto-secundario);
   line-height: 1.6;
+  font-size: 1.05rem;
   margin-bottom: 25px;
 }
 
+/* Enunciado da Pergunta */
+.caixa-perguntas {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--cor-texto);
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+/* Container de botões das alternativas */
 .caixa-alternativas {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
   margin-top: 20px;
 }
 
+/* Estilo geral de todos os botões */
 button {
   background: linear-gradient(
     135deg,
@@ -65,29 +82,52 @@ button {
   color: white;
   border: none;
   border-radius: 12px;
-  padding: 14px 28px;
+  padding: 16px 24px;
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   box-shadow: 0 8px 18px rgba(25, 168, 138, 0.25);
   transition: all 0.3s ease;
+  line-height: 1.4;
 }
 
 button:hover {
   transform: translateY(-2px);
   box-shadow: 0 12px 24px rgba(25, 168, 138, 0.35);
+  filter: brightness(1.05);
 }
 
 button:active {
   transform: translateY(0);
 }
 
-/* Esconde a caixa de resultado até que o jogo termine */
+/* Estilo específico do botão Jogar/Reiniciar */
+.btn-jogar,
+.btn-jogar-novamente {
+  font-size: 1.1rem;
+  padding: 16px 36px;
+  margin-top: 10px;
+}
+
+/* Caixa do Resultado Final */
 .caixa-resultado {
   display: none;
   margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px dashed var(--cor-secundaria);
 }
 
 .caixa-resultado.mostrar {
   display: block;
+}
+
+.texto-resultado {
+  background-color: var(--cor-secundaria);
+  padding: 20px;
+  border-radius: 16px;
+  color: var(--cor-texto);
+  font-size: 1.05rem;
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 25px;
 }
