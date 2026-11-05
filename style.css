@@ -9,6 +9,7 @@
   --cor-sombra: rgba(25, 168, 138, 0.12);
 }
 
+/* Corrigido de '-' para '*' */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -48,6 +49,13 @@ p {
   margin-bottom: 25px;
 }
 
+.caixa-alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
 button {
   background: linear-gradient(
     135deg,
@@ -74,3 +82,12 @@ button:active {
   transform: translateY(0);
 }
 
+/* Esconde a caixa de resultado até que o jogo termine */
+.caixa-resultado {
+  display: none;
+  margin-top: 20px;
+}
+
+.caixa-resultado.mostrar {
+  display: block;
+}
